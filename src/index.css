@@ -1,0 +1,11 @@
+body { font-family: Inter, system-ui, sans-serif; margin:0; background:#f5f7fb; }
+.app { max-width:1000px; margin:24px auto; padding:16px; background:white; border-radius:8px; box-shadow:0 6px 20px rgba(10,10,20,0.06); }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.two-col { display:flex; gap:16px; }
+.left { flex:2; }
+.right { flex:1; }
+.chat-box { border:1px solid #e6eef6; padding:12px; height:480px; overflow:auto; border-radius:8px; background:#fff; }
+.message { margin:8px 0; }
+.bot { color:#0b63ff; }
+.user { color:#111; text-align:right; }
+.tiny { font-size:12px; color:#666; }
