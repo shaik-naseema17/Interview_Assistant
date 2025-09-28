@@ -15,6 +15,3 @@
 3. Run dev server: `npm run dev`
 4. Open the app at `http://localhost:5173`
 
-## Notes
-- The AI grading is a simple heuristic so the app works without API keys. Replace `src/utils/ai.js` with OpenAI calls if you want real LLM judgment.
-- Persistence is managed by redux-persist; clearing browser storage will remove saved state.
